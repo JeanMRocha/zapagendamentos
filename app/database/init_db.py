@@ -1,8 +1,12 @@
 # Arquivo: app/database/init_db.py
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from app.database import Base
+from app.database.base import Base
 
 # Substitua pela URL correta do seu banco
 DATABASE_URL = "sqlite:///zapagendamentos.db"
