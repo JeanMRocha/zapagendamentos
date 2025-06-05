@@ -1,0 +1,67 @@
+# Estrutura futura para funcionalidades comunitárias, sociais e comerciais do Zap
+
+# Classificados
+classificados: {
+    id, telefone, titulo, descricao, categoria, preco, tipo_negocio (venda, troca, doação),
+    fotos, bairro_id, distrito_id, status, data_criacao
+}
+
+# Denúncias
+denuncias: {
+    id, telefone (opcional), titulo, descricao, tipo, foto, localizacao, status, data_criacao
+}
+
+# Campanhas solidárias
+campanhas_solidarias: {
+    id, organizador, titulo, descricao, tipo, meta, arrecadado, local_entrega, status, data_inicio, data_fim
+}
+
+# Doações fixas (Banco de Itens)
+doacoes_fixas: {
+    id, telefone, tipo_item, descricao, estado_conservacao, fotos, bairro_id, status, data_cadastro
+}
+
+# Achados e perdidos
+achados_perdidos: {
+    id, telefone, tipo (achado/perdido), titulo, descricao, local, foto, status, data_registro
+}
+
+# Agenda Oficial da Cidade
+agenda_oficial: {
+    id, titulo, descricao, local, data, hora, tipo, orgao_responsavel, publicado_por
+}
+
+# Consulta pública de leis
+leis_municipais: {
+    id, titulo, numero, ano, tipo, link_arquivo, resumo, orgao, publicado_em
+}
+
+# Carona solidária
+caronas: {
+    id, telefone, origem, destino, data, horario, vagas, observacoes, tipo (ida, volta), status
+}
+
+# Catálogo de produtos locais
+catalogo_produtos: {
+    id, empresa_id, nome_produto, descricao, preco, categoria, fotos, ativo
+}
+
+# Campanhas de incentivo
+campanhas_incentivo: {
+    id, titulo, descricao, regra, valor_voucher, validade, publico_alvo, status
+}
+
+# Fila de espera da saúde
+fila_saude: {
+    id, telefone, nome_paciente, tipo_procedimento, prioridade, data_solicitacao, status
+}
+
+# Logs de ações (segurança)
+logs_acao: {
+    id, acao, tabela_afetada, registro_id, telefone_responsavel, data_hora
+}
+
+# Permissões de usuário
+usuarios_permissoes: {
+    telefone, tipo_usuario (admin, moderador, visitante, empresa), ativo
+}

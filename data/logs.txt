@@ -1,0 +1,4 @@
+def registrar_log(acao, telefone):
+    with open("logs.txt", "a", encoding="utf-8") as log:
+        agora = datetime.now().isoformat()
+        log.write(f"[{agora}] {acao} - {telefone}\n")

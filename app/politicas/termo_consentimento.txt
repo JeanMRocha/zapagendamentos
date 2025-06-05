@@ -1,0 +1,23 @@
+TERMO DE CONSENTIMENTO PARA USO DOS DADOS – ZAPAGENDAMENTOS
+
+Eu, usuário do sistema ZapAgendamentos, autorizo voluntariamente o tratamento dos meus dados pessoais para as finalidades descritas abaixo:
+
+✔️ Cadastro e identificação pelo número de telefone e CPF  
+✔️ Registro e consulta de agendamentos com prestadores locais  
+✔️ Participação em pesquisas de mercado com bônus por resposta  
+✔️ Armazenamento do histórico de mensagens para melhorar recomendações  
+✔️ Uso de localização estimada para ofertas e serviços por região  
+✔️ Recebimento de cupons, bônus, promoções ou notificações personalizadas  
+✔️ Geração de relatórios e resumos sobre minha atividade no sistema  
+✔️ Armazenamento de interações com assistente virtual local (IA)  
+
+Declaro estar ciente de que:
+- Posso negar ou revogar este consentimento a qualquer momento  
+- Posso solicitar a exclusão de todos os meus dados salvos  
+- Posso solicitar uma cópia das informações armazenadas sobre mim  
+
+Este consentimento é obrigatório para funcionamento completo do sistema.
+
+✅ Li e concordo com os termos acima.
+
+📅 Data de aceite: [data automática]

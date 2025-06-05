@@ -1,0 +1,67 @@
+POLÍTICA DE PRIVACIDADE – ZAPAGENDAMENTOS
+Versão 1.0 | Atualizado em: 30/05/2025
+
+O ZapAgendamentos é um sistema que permite a contratação, agendamento e interação com serviços locais por meio do WhatsApp, utilizando tecnologias de inteligência artificial local e banco de dados centralizado.
+
+Esta política explica como usamos, protegemos e tratamos os dados que você nos fornece ou gera ao utilizar o sistema.
+
+---
+
+1. QUAIS DADOS COLETAMOS
+
+Podemos registrar os seguintes dados:
+- Número de telefone
+- Nome e CPF (quando fornecido voluntariamente)
+- Bairro, cidade e idade (informados ou inferidos)
+- Histórico de agendamentos, avaliações e pesquisas
+- Respostas a interações com a IA local
+- Créditos usados, comprados ou bonificados
+- Informações de interesse, profissão ou serviço prestado
+- Localização estimada para segmentar ofertas locais
+
+---
+
+2. COMO USAMOS SEUS DADOS
+
+Utilizamos seus dados para:
+- Agendar, remarcar e cancelar serviços
+- Fazer sugestões inteligentes com base nas suas preferências
+- Gerar pesquisas de opinião locais e dados para os prestadores
+- Calcular créditos, bônus, fidelidade e recompensas
+- Manter histórico personalizado por CPF e telefone
+- Promover campanhas e cupons segmentados
+
+---
+
+3. COMPARTILHAMENTO
+
+Não vendemos nem compartilhamos seus dados com terceiros. Os dados ficam armazenados localmente no município e podem ser utilizados anonimamente para gerar relatórios internos e melhorar o sistema.
+
+---
+
+4. SEGURANÇA
+
+Adotamos práticas locais de proteção, como:
+- Restrição de acesso a operadores autorizados
+- Armazenamento em banco local com controle de permissão
+- Opção de exclusão dos dados a qualquer momento
+
+---
+
+5. SEUS DIREITOS
+
+Você pode, a qualquer momento:
+- Solicitar a exclusão total dos seus dados
+- Solicitar uma cópia do que temos registrado
+- Corrigir qualquer informação pessoal
+- Retirar o consentimento para tratamento de dados
+
+---
+
+6. COMO SOLICITAR AJUSTES
+
+Você pode entrar em contato pelo número oficial do sistema ou pelo site parceiro para solicitar qualquer ação sobre seus dados.
+
+---
+
+© ZapAgendamentos – Todos os direitos reservados.
