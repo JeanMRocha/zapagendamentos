@@ -1,0 +1,7 @@
+
+# arquivo: main.py
+# trecho: exemplo de conexão
+
+def exemplo():
+    print("teste")
+    
