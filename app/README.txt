@@ -1,90 +1,58 @@
+# 🚀 ZapAgendamentos
 
-# ZapAgendamentos - Sistema Local de Agendamento via WhatsApp
+Sistema de agendamento inteligente via WhatsApp, com suporte a planos, cupons, gamificação, organizações e promoções integradas.
 
-Este projeto simula o backend de um sistema de agendamentos e serviços locais usando Python com interface Tkinter e banco SQLite.
+## 📦 Instalação Local
 
----
+```bash
+# Clonar o repositório
+$ git clone https://github.com/JeanMRocha/zapagendamentos.git
+$ cd zapagendamentos
 
-## 📦 Estrutura de Pastas
+# Criar ambiente virtual (opcional)
+$ python -m venv .venv
+$ source .venv/bin/activate  # Linux/macOS
+$ .venv\Scripts\activate   # Windows
+
+# Instalar dependências
+$ pip install -r requirements.txt
+```
+
+## 🧱 Estrutura de Banco de Dados
+
+Para iniciar o banco de dados local (SQLite):
+```bash
+python app/database/init_db.py
+```
+Isso criará o arquivo `zapagendamentos.db` com todas as tabelas do projeto.
+
+## ✨ Funcionalidades Atuais
+
+- Gerenciamento de usuários e planos
+- Sistema de créditos e bônus
+- Recompensas por engajamento e ranking local
+- Cupons e campanhas de indicação
+- Organizações com conselhos e relatórios financeiros
+- Script automatizado de premiação mensal (`app/premiacao_mensal.py`)
+
+## 🔜 Próximas Etapas
+
+- Integração com WhatsApp Cloud API
+- Automações com n8n
+- Painel administrativo
+- API REST com FastAPI (opcional)
+
+## 📁 Estrutura Recomendada
 
 ```
 app/
-│
-├── banco.py                   # conexão e criação central
-├── modelos/
-│   ├── __init__.py
-│   ├── usuarios.py
-│   ├── empresas.py
-│   ├── servicos.py
-│   ├── eventos.py
-│   ├── pontos_turisticos.py
-│   ├── oportunidades.py
-│   ├── candidaturas.py
-│   ├── entidades_publicas.py
-│   └── notificacoes.py
-├── painel_admin.py
-└── adicionar_categorias_tipos.py
-
----
-
-## ▶️ Como Rodar o Sistema
-
-### 1. Rodar o sistema principal (Madaleno)
-```bash
-python main.py
-```
-
-- Digite seu número de telefone ou "VISITANTE" para entrar sem cadastro.
-- Pode buscar por palavras como "dentista", "cabeleireiro", "barbeiro".
-- Admins podem usar comandos especiais (ver abaixo).
-
-### 2. Rodar o painel administrativo
-```bash
-python painel_admin.py
-```
-
-- Permite cadastrar novos serviços com validação e sugestão automática.
-- Permite aprovar serviços pendentes.
-
----
-
-## 🔧 Comandos para Administradores
-
-Certifique-se de cadastrar o número na tabela `admins`.
-
-Exemplos de comandos:
-
-```
-DAR 10 CRÉDITOS PARA 21999999999
-PLANO RUBI 1M PARA 21999999999
-DESTACAR SERVIÇO 27
-REMOVER DESTAQUE 27
+├── modelos/               # Todos os modelos SQLAlchemy separados por tema
+├── database/              # Scripts de banco e inicialização
+├── premiacao_mensal.py    # Script mensal de bônus/ranking
+└── ...                    # Demais módulos do projeto
 ```
 
 ---
 
-## 💡 Recursos Implementados
-
-- ✅ Cadastro parcial ou completo de usuários
-- ✅ Modo visitante sem necessidade de login
-- ✅ Limite de 2 serviços por busca (modo gratuito/visitante)
-- ✅ Exibição priorizada de serviços patrocinados
-- ✅ IA local com histórico para contexto
-- ✅ Painel para cadastro e aprovação de conteúdo
-- ✅ Verificação automática contra termos inapropriados
-- ✅ Sugestão de correções com base em bom português
-
----
-
-## ⚠️ Requisitos
-
-- Python 3.8+
-- Biblioteca `requests`, `tkinter`
-- Servidor Ollama com modelo `mistral` rodando localmente:
-```bash
-ollama run mistral
-```
-
----
-
-© 2025 ZapAgendamentos • Desenvolvido por Jean Rocha
+## 🧠 Créditos
+Projeto modelado com foco em escalabilidade, marketing de alta conversão e performance operacional. Desenvolvido com apoio de IA especializada e princípios de arquitetura limpa.
